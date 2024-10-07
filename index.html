@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cappadocian Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cappadocian Clock</h1>
+      <p>by <a href="https://github.com/gayret">Safa Gayret</a></p>
+    </header>
+    <div id="app">
+      <div id="calendar">
+        <div id="day">
+          <div id="yesterday"></div>
+          <div id="today"></div>
+          <div id="tomorrow"></div>
+        </div>
+
+        <div id="month">
+          <div id="last-month"></div>
+          <div id="this-month"></div>
+          <div id="next-month"></div>
+        </div>
+
+        <div id="day-as-string">
+          <div id="yesterday-as-string"></div>
+          <div id="today-as-string"></div>
+          <div id="tomorrow-as-string"></div>
+        </div>
+      </div>
+      <div id="clock">
+        <div id="hour" class="hand"></div>
+        <div id="minute" class="hand"></div>
+        <div id="second" class="hand"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
